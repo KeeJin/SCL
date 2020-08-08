@@ -34,7 +34,9 @@ I could have tried more models with my enlarged dataset (from text augmentation)
 ### 3. Marketing Analytics
 In this competition (hosted on Kaggle), we were provided with data related to marketing emails (Electronic Direct Mail) that were sent to Shopee users over a certain period. Based on the data provided, we must predict whether each user will open an email sent to him/her. The evaluation metrics used was the Matthews Correlation Coefficient (MCC). The competition duration was 1 week long.
 
-I built a Sequential Dense network with tensorflow.keras with a sigmoid activation function at the final layer to implement binary logistic regression. The data pipeline and training was constructed with Tensorflow 2. I then did an ensemble of my best 2 results and tweaked the logistic regression threshold to optimise my results. My final threshold used was in the ranges of 0.7 to 0.75.
+I built a Sequential Dense network with tensorflow.keras with a sigmoid activation function at the final layer to implement binary logistic regression. The data pipeline and training was constructed with Tensorflow 2. I then did an ensemble of my best 2 results and tweaked the logistic regression threshold to optimise my results. My final threshold used was in the ranges of 0.7 to 0.75.  
+
+I also tried using the keras-tuner (https://github.com/keras-team/keras-tuner) to search for optimal hyperparameters, but it did not work out due to the lack of compute.
 
 ##### Link to competition here: https://www.kaggle.com/c/student-shopee-code-league-marketing-analytics
 ##### Results
