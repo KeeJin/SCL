@@ -9,7 +9,7 @@ I built a classification model via transfer learning of the EfficientNet B6 mode
 
 ##### Link to competition here: https://www.kaggle.com/c/shopee-product-detection-student/overview
 ##### Results
-My model achieved approximately 0.8 validation loss, and a 77.218% classification accuracy rate on the test set.
+My model achieved approximately 0.8 validation loss, and a 77.218% classification accuracy rate on the test set.  
 Position: 195/823
 
 ##### What can be improved
@@ -22,10 +22,10 @@ I tried building 3 sentence classification models, first with a basic LSTM model
 
 ##### Link to competition here: https://www.kaggle.com/c/student-shopee-code-league-sentiment-analysis
 ##### Results
-My best model was the XLM-RoBERTa model with text augmentation:
-LSTM score: 0.21174
-BERT score: 0.44205
-XLM-RoBERTa (with text augmentation) score: 0.52550
+My best model was the XLM-RoBERTa model with text augmentation:  
+LSTM score: 0.21174  
+BERT score: 0.44205  
+XLM-RoBERTa (with text augmentation) score: 0.52550  
 Position: 39/356
 
 ##### What can be improved
@@ -38,7 +38,7 @@ I built a Sequential Dense network with tensorflow.keras with a sigmoid activati
 
 ##### Link to competition here: https://www.kaggle.com/c/student-shopee-code-league-marketing-analytics
 ##### Results
-Ensembled score: 0.52935
+Ensembled score: 0.52935  
 Position: 26/368
 
 ##### What can be improved
